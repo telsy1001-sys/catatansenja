@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catatan Senja — Blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Lompat ke konten</a>
+
+<!-- ================= HEADER ================= -->
+<header class="site-head">
+  <div class="wrap site-head__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">CS</span>
+      <span class="brand__name">Catatan Senja</span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+    <label for="nav-toggle" class="burger" aria-label="Buka menu"><span></span></label>
+
+    <nav class="nav">
+      <a href="#main">Beranda</a>
+      <a href="#kategori">Kategori</a>
+      <a href="post.html">Artikel</a>
+      <a href="#tentang">Tentang</a>
+      <a class="nav__cta" href="#langganan">Langganan</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO / FEATURED ================= -->
+  <section class="wrap hero">
+    <article class="feat">
+      <a class="feat__media" href="post.html" style="--c1:#1f3d5c;--c2:#6c4b8a" aria-hidden="true"></a>
+      <div class="feat__body">
+        <span class="tag tag--accent">Pilihan Editor</span>
+        <h1><a href="post.html">Menulis Setiap Hari Selama Setahun, dan Apa yang Berubah</a></h1>
+        <p class="lede">
+          Bukan soal jadi penulis hebat. Ini catatan jujur tentang kebiasaan kecil
+          yang ternyata mengubah cara saya berpikir, bekerja, dan beristirahat.
+        </p>
+        <div class="byline">
+          <span class="avatar" style="--c1:#b45c3a;--c2:#7a2f4f">R</span>
+          <div>
+            <b>Rani Prameswari</b>
+            <span class="meta"><time datetime="2026-08-28">28 Agustus 2026</time> · 8 menit baca</span>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ================= CONTENT + SIDEBAR ================= -->
+  <div class="wrap layout">
+
+    <section class="posts" aria-labelledby="terbaru">
+      <div class="sec-head">
+        <h2 id="terbaru">Tulisan Terbaru</h2>
+        <a class="link" href="post.html">Lihat semua &rarr;</a>
+      </div>
+
+      <div class="grid">
+
+        <article class="card">
+          <a class="card__media" href="post.html" style="--c1:#2f5d50;--c2:#8fae4e" aria-hidden="true"></a>
+          <div class="card__body">
+            <span class="tag">Produktivitas</span>
+            <h3><a href="post.html">Tiga Cara Sederhana Merapikan Hari yang Berantakan</a></h3>
+            <p>Tanpa aplikasi baru, tanpa sistem rumit. Cukup kertas, pena, dan satu aturan kecil.</p>
+            <span class="meta"><time datetime="2026-08-22">22 Agustus 2026</time> · 5 menit</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card__media" href="post.html" style="--c1:#5c2440;--c2:#c0704a" aria-hidden="true"></a>
+          <div class="card__body">
+            <span class="tag">Desain</span>
+            <h3><a href="post.html">Kenapa Ruang Kosong Lebih Penting dari Warna</a></h3>
+            <p>Halaman yang enak dibaca hampir selalu punya satu hal sama: berani menyisakan ruang.</p>
+            <span class="meta"><time datetime="2026-08-15">15 Agustus 2026</time> · 6 menit</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card__media" href="post.html" style="--c1:#243b6b;--c2:#4b8fb0" aria-hidden="true"></a>
+          <div class="card__body">
+            <span class="tag">Teknologi</span>
+            <h3><a href="post.html">CSS Modern yang Bikin Layout Jauh Lebih Ringkas</a></h3>
+            <p>Grid, clamp, dan container query menggantikan puluhan baris media query lama.</p>
+            <span class="meta"><time datetime="2026-08-09">9 Agustus 2026</time> · 9 menit</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card__media" href="post.html" style="--c1:#4a3b1f;--c2:#a88b3c" aria-hidden="true"></a>
+          <div class="card__body">
+            <span class="tag">Cerita</span>
+            <h3><a href="post.html">Kopi Pukul Lima Sore di Warung Pak Ndut</a></h3>
+            <p>Kadang ide terbaik datang bukan di meja kerja, tapi di bangku plastik pinggir jalan.</p>
+            <span class="meta"><time datetime="2026-08-02">2 Agustus 2026</time> · 4 menit</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card__media" href="post.html" style="--c1:#1f4a4a;--c2:#5aa39b" aria-hidden="true"></a>
+          <div class="card__body">
+            <span class="tag">Produktivitas</span>
+            <h3><a href="post.html">Berhenti Mengejar Inbox Kosong</a></h3>
+            <p>Email bukan daftar tugas. Ini cara saya memisahkan keduanya dan jadi lebih tenang.</p>
+            <span class="meta"><time datetime="2026-07-27">27 Juli 2026</time> · 5 menit</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card__media" href="post.html" style="--c1:#3d2352;--c2:#8b5aa8" aria-hidden="true"></a>
+          <div class="card__body">
+            <span class="tag">Teknologi</span>
+            <h3><a href="post.html">Menulis Dokumentasi yang Benar-Benar Dibaca Orang</a></h3>
+            <p>Contoh dulu, penjelasan belakangan. Prinsip singkat yang mengubah dokumentasi tim kami.</p>
+            <span class="meta"><time datetime="2026-07-19">19 Juli 2026</time> · 7 menit</span>
+          </div>
+        </article>
+
+      </div>
+
+      <nav class="pager" aria-label="Navigasi halaman">
+        <a class="pager__btn is-disabled" href="#" aria-disabled="true">&larr; Sebelumnya</a>
+        <div class="pager__nums">
+          <a class="is-current" href="#" aria-current="page">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <span>…</span>
+          <a href="#">9</a>
+        </div>
+        <a class="pager__btn" href="#">Berikutnya &rarr;</a>
+      </nav>
+    </section>
+
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="side">
+
+      <section class="widget" id="tentang">
+        <h2 class="widget__title">Tentang</h2>
+        <div class="about">
+          <span class="avatar avatar--lg" style="--c1:#b45c3a;--c2:#7a2f4f">R</span>
+          <p>Halo, saya Rani. Menulis soal kerja, desain, dan hal-hal kecil yang terlewat di sela hari.
+             Terbit tiap Jumat sore.</p>
+        </div>
+      </section>
+
+      <section class="widget" id="kategori">
+        <h2 class="widget__title">Kategori</h2>
+        <ul class="cats">
+          <li><a href="#">Produktivitas <span>12</span></a></li>
+          <li><a href="#">Desain <span>9</span></a></li>
+          <li><a href="#">Teknologi <span>14</span></a></li>
+          <li><a href="#">Cerita <span>7</span></a></li>
+          <li><a href="#">Buku <span>4</span></a></li>
+        </ul>
+      </section>
+
+      <section class="widget">
+        <h2 class="widget__title">Paling Dibaca</h2>
+        <ol class="popular">
+          <li><a href="post.html">Cara Membaca 40 Buku Setahun Tanpa Terburu-buru</a><span class="meta">3.2rb pembaca</span></li>
+          <li><a href="post.html">Setup Meja Kerja Murah yang Awet Bertahun-tahun</a><span class="meta">2.8rb pembaca</span></li>
+          <li><a href="post.html">Belajar Ngoding di Usia 30-an: Realistis, Bukan Mustahil</a><span class="meta">2.1rb pembaca</span></li>
+        </ol>
+      </section>
+
+      <section class="widget widget--cta" id="langganan">
+        <h2 class="widget__title">Kirim ke Email</h2>
+        <p>Satu tulisan tiap minggu. Tanpa spam, berhenti kapan saja.</p>
+        <form class="sub" onsubmit="return false">
+          <label class="sr-only" for="mail">Alamat email</label>
+          <input id="mail" type="email" placeholder="nama@email.com" required>
+          <button type="submit">Langganan</button>
+        </form>
+      </section>
+
+      <section class="widget">
+        <h2 class="widget__title">Tagar</h2>
+        <div class="tags">
+          <a class="tag" href="#">#menulis</a>
+          <a class="tag" href="#">#css</a>
+          <a class="tag" href="#">#kebiasaan</a>
+          <a class="tag" href="#">#fokus</a>
+          <a class="tag" href="#">#buku</a>
+          <a class="tag" href="#">#kerja-remote</a>
+        </div>
+      </section>
+
+    </aside>
+  </div>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-foot">
+  <div class="wrap site-foot__inner">
+    <div>
+      <a class="brand" href="index.html">
+        <span class="brand__mark">CS</span>
+        <span class="brand__name">Catatan Senja</span>
+      </a>
+      <p class="meta">Ditulis pelan-pelan sejak 2021.</p>
+    </div>
+    <nav class="foot-nav">
+      <a href="#">RSS</a>
+      <a href="#">Arsip</a>
+      <a href="#">Kontak</a>
+      <a href="#">Privasi</a>
+    </nav>
+  </div>
+  <p class="wrap meta copy">&copy; 2026 Catatan Senja — halaman demo HTML &amp; CSS.</p>
+</footer>
+
+</body>
+</html>
