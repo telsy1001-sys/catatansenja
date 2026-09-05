@@ -302,3 +302,32 @@ a.tag:hover{background:var(--accent);color:#fff}
 @media (prefers-reduced-motion:reduce){
   *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
 }
+
+/* =========================================================
+   IKLAN / AD SLOTS
+   ========================================================= */
+.ad{
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  max-width:100%;overflow-x:auto;
+}
+.ad::before{
+  content:"Iklan";
+  font:600 11px/1 var(--sans);letter-spacing:.8px;text-transform:uppercase;
+  color:var(--ink-faint);
+}
+/* slot punya ukuran tetap supaya layout tidak lompat saat iklan dimuat */
+.ad__slot{flex:0 0 auto;margin-inline:auto;overflow:hidden}
+.ad__slot iframe{display:block;border:0}
+
+.ad--leaderboard{padding-block:clamp(20px,3vw,32px)}
+.ad--leaderboard .ad__slot{width:728px;height:90px}
+
+.ad--inline{grid-column:1/-1;padding-block:clamp(6px,1.5vw,14px)}
+.ad--inline .ad__slot{width:320px;height:50px}
+
+.ad--tower{padding-block:clamp(20px,3vw,32px)}
+.ad--tower .ad__slot{width:160px;height:300px}
+
+.widget--ad{display:grid;justify-items:center}
+.widget--ad .ad::before{content:none}
+.widget--ad .ad{padding-block:0}
